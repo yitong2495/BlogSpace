@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSpace with API</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <h1> BlogSpace </h1>
+    </nav>
+    <!-- hero -->
+    <section class="form-container">
+        <form id="new-post">
+            <p>NEW POST</p>
+            <label for="post-title">Title:</label>
+            <input type="text" id="post-title" >
+            <label for="post-body">Body:</label>
+            <textarea id="post-body"></textarea>
+           <button id="post-btn">POST</button>
+        </form>
+    </section>
+    <!-- blog list -->
+    <div id="blog-list"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>
